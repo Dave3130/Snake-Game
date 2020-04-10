@@ -12,6 +12,6 @@ This Snake Game Is Made Using Python 3.6.5 & Pygame Module.
     ```sh
     pip install -r <path to the game>
    ```
-   
-   * Follow Me On Instagram at [davejaydeep48](https://www.instagram.com/davejaydeep48)
+  
+ Follow Me On Instagram at [davejaydeep48](https://www.instagram.com/davejaydeep48)
 ### Thankyou !!
