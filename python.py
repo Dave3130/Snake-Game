@@ -44,7 +44,7 @@ def welcome():
     exit_game = False
     pygame.mixer.music.load('Music/background.mp3')
     pygame.mixer.music.play()
-    pygame.mixer.music.set_volume(0.1)
+    pygame.mixer.music.set_volume(0.5)
     while not exit_game:
         gameWindow.fill((200,210,229))
         text_screen("Welcome to Snake Game", black, 260, 250)
@@ -162,10 +162,7 @@ def gameloop():
             head = []
             head.append(snake_x)
             head.append(snake_y)
-            print("head:",head)
-            print(snk_list)
             snk_list.insert(0,head)
-            print(snk_list)
             if len(snk_list)>snk_length:
                 del snk_list[-1]
 
